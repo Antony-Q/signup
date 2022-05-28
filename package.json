@@ -15,7 +15,14 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
+<<<<<<< HEAD
     "extends": "react-app"
+=======
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+>>>>>>> our-glass/main
   },
   "browserslist": {
     "production": [
